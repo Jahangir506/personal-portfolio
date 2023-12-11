@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 const SideNav = () => {
   const [nav, setNav] = useState(false);
@@ -65,21 +66,21 @@ const SideNav = () => {
       )}
       <div className="md:block hidden fixed top-[25%] right-4 z-10">
         <div className="flex flex-col">
-          <a href="#main" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          <Link to='/home' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
             <AiOutlineHome />
-          </a>
-          <a href="#work" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          </Link>
+          <Link to='/study' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
             <GrProjects />
-          </a>
-          <a href="#projects" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          </Link>
+          <Link to='/skill' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
             <AiOutlineProject />
-          </a>
-          <a href="#resume" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          </Link>
+          <Link to='/projects' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
             <BsPerson />
-          </a>
-          <a href="#contact" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          </Link>
+          <Link to='/contact' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
             <AiOutlineMail />
-          </a>
+          </Link>
         </div>
       </div>
     </>

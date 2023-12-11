@@ -1,12 +1,35 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
-      <footer className="footer px-80 items-center pb-16 pt-5 bg-gradient-to-r from-indigo-700 from-10% via-red-500 via-50% to-red-500 to-95% text-white">
+      <footer className="footer px-80 items-center pb-16 pt-5 bg-gradient-to-r from-[#154287] from-6% via-[#03419c] via-30% to-[#136ff9] to-90% text-white">
         <div className="flex">
-          <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">About Me</button>
-          <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">Work</button>
-          <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">Projects</button>
-          <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">Contact</button>
+          <Link to="/home">
+            <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
+              Home
+            </button>
+          </Link>
+          <Link to="/study">
+            <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
+              Study
+            </button>
+          </Link>
+          <Link to="/skill">
+            <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
+              Skill
+            </button>
+          </Link>
+          <Link to="/projects">
+            <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
+              Projects
+            </button>
+          </Link>
+          <Link to="/contact">
+            <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
+              Contact
+            </button>
+          </Link>
         </div>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
           <a>
