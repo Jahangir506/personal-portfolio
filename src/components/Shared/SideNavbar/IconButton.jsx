@@ -9,7 +9,7 @@ const IconButton = ({ children, text, color, ...props }) => {
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         className={`
-      flex p-3 items-center rounded-full ${
+      flex p-2 items-center rounded-full ${
         color || "bg-gray-100 hover:bg-[#aaf8d3] "
       }
       `}

@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <footer className="footer px-80 items-center pb-16 pt-5 bg-gradient-to-r from-[#02765d] from-5% via-[#03419c] via-100% to-[#154287] to-90% text-white">
         <div className="flex">
-          <Link to="/home">
+          <Link to="/">
             <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
               Home
             </button>
@@ -15,16 +15,6 @@ const Footer = () => {
           <Link to="/about">
             <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
               About
-            </button>
-          </Link>
-          <Link to="/study">
-            <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
-              Study
-            </button>
-          </Link>
-          <Link to="/skill">
-            <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
-              Skill
             </button>
           </Link>
           <Link to="/projects">

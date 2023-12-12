@@ -1,5 +1,5 @@
 import { AiOutlineMail } from "react-icons/ai";
-import { FaBookReader, FaHome } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 import { FaUserGear } from "react-icons/fa6";
 import { GrProjects } from "react-icons/gr";
 import { MdPerson } from "react-icons/md";
@@ -12,42 +12,35 @@ const HoverButton = ({children, text, color, ...props}) => {
       <div>
           <Link to="/">
             <IconButton text="Home">
-              <FaHome size={20}/>
+              <FaHome size={22}/>
             </IconButton>
           </Link>
         </div>
         <div>
           <Link to="/about">
             <IconButton text="About">
-              <MdPerson></MdPerson>
-            </IconButton>
-          </Link>
-        </div>
-        <div>
-          <Link to="/study">
-            <IconButton text="Study">
-              <FaBookReader></FaBookReader>
+              <MdPerson size={22}></MdPerson>
             </IconButton>
           </Link>
         </div>
         <div>
           <Link to="/skill">
             <IconButton text="Skill">
-              <FaUserGear ></FaUserGear>
+              <FaUserGear size={22} ></FaUserGear>
             </IconButton>
           </Link>
         </div>
         <div>
           <Link to="/projects">
             <IconButton text="Projects">
-              <GrProjects></GrProjects>
+              <GrProjects size={22}></GrProjects>
             </IconButton>
           </Link>
         </div>
         <div>
           <Link to="/contact">
             <IconButton text="Contact">
-              <AiOutlineMail></AiOutlineMail>
+              <AiOutlineMail size={22}></AiOutlineMail>
             </IconButton>
           </Link>
         </div>

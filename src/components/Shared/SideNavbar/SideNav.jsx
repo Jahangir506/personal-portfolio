@@ -28,35 +28,35 @@ const SideNav = () => {
               to="#main"
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg btn cursor-pointer hover:scale-110 duration-200"
             >
-              <AiOutlineHome size={20} />
+              <AiOutlineHome />
               <span className="pl-4">Home</span>
             </a>
             <a
               to="#work"
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg btn cursor-pointer hover:scale-110 duration-200"
             >
-              <GrProjects size={20} />
+              <GrProjects />
               <span className="pl-4">Work</span>
             </a>
             <a
               to="#projects"
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg btn cursor-pointer hover:scale-110 duration-200"
             >
-              <AiOutlineProject size={20} />
+              <AiOutlineProject />
               <span className="pl-4">Projects</span>
             </a>
             <a
               to="#resume"
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg btn cursor-pointer hover:scale-110 duration-200"
             >
-              <BsPerson size={20} />
+              <BsPerson />
               <span className="pl-4">Resume</span>
             </a>
             <a
               to="#contact"
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg btn cursor-pointer hover:scale-110 duration-200"
             >
-              <AiOutlineMail size={20} />
+              <AiOutlineMail />
               <span className="pl-4">Contact</span>
             </a>
           </div>
@@ -64,7 +64,7 @@ const SideNav = () => {
       ) : (
         ""
       )}
-      <div className="md:block hidden fixed top-[25%] left-4 z-10">
+      <div className="md:block hidden fixed top-[30%] left-4 z-10">
         <div className="flex flex-col space-y-3">
          <HoverButton/>
         </div>

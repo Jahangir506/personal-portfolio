@@ -25,12 +25,12 @@ const BannerIntro = () => {
                 <Cursor cursorColor="#22c55e"></Cursor>
               </h2>
               <p className="max-w-3xl text-justify">
-                Over the past six months, I have been honing my skills in web
-                development, specializing in React.js for front-end development.
-                I also possess something knowledge of Express.js for server-side
-                development and MongoDB for working with databases. This allows
-                me to tackle end-to-end development tasks and build robust,
-                scalable web applications.
+                I started knowing and learning Programming for 9 months,
+                I am honing myself in web development, specializing in React.js
+                for friends development. I have some knowledge of Express.js for
+                server-side development and MongoDB for working with databases.
+                It allows me to tackle end-to-end development tasks, build
+                scalable and web apps.
               </p>
               <div className="space-x-6">
                 <Link to="/contact">

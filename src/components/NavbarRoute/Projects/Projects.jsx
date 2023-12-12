@@ -1,3 +1,8 @@
+import { Link } from "react-router-dom";
+import img1 from '../../../assets/JUSTCHOICE.png'
+import img2 from '../../../assets/TONADDA.png'
+import img3 from '../../../assets/SAVE-LIFE.png'
+
 const Projects = () => {
   return (
     <>
@@ -5,43 +10,79 @@ const Projects = () => {
         <h2 className="text-4xl">
           <span className="text-yellow-500">My</span> Projects
         </h2>
-        <div className="grid md:grid-cols-2 gap-6 mt-16 lg:grid-cols-3 justify-center">
-          <div className="card card-compact  bg-base-100 shadow-xl">
+        <div className="grid md:grid-cols-2 gap-6 mt-8 lg:grid-cols-3 justify-center">
+          <div className="card card-compact shadow-xl">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                src={img1}
                 alt="Shoes"
+                className="w-full h-72"
               />
             </figure>
             <div className="card-body">
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+              <div className="card-actions">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae consectetur voluptatibus deserunt sed nulla consequatur!
+                  Quasi itaque ratione consectetur eius nulla modi sequi, eos
+                  quo ea odit doloremque architecto sint.
+                </p>
+                <Link target={"_blank"} to='https://brand-shop-6a8b1.web.app/'>
+                  <button className="btn btn-sm bg-[#02765d]">Live Site</button>
+                </Link>
+                <Link>
+                  <button className="btn btn-sm bg-[#02765d]">Source</button>
+                </Link>
               </div>
             </div>
           </div>
-          <div className="card card-compact  bg-base-100 shadow-xl">
+          <div className="card card-compact shadow-xl">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                src={img2}
                 alt="Shoes"
+                className="w-full h-72"
               />
             </figure>
             <div className="card-body">
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+              <div className="card-actions">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae consectetur voluptatibus deserunt sed nulla consequatur!
+                  Quasi itaque ratione consectetur eius nulla modi sequi, eos
+                  quo ea odit doloremque architecto sint.
+                </p>
+                <Link target={"_blank"} to='https://tong-adda.web.app/'>
+                  <button className="btn btn-sm bg-[#02765d]">Live Site</button>
+                </Link>
+                <Link>
+                  <button className="btn btn-sm bg-[#02765d]">Source</button>
+                </Link>
               </div>
             </div>
           </div>
-          <div className="card card-compact  bg-base-100 shadow-xl">
+          <div className="card card-compact shadow-xl">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              className="w-full h-72"
+                src={img3}
                 alt="Shoes"
               />
             </figure>
             <div className="card-body">
-              <div className="card-actions justify-end">
-                <button className="btn bttn">Buy Now</button>
+              <div className="card-actions">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae consectetur voluptatibus deserunt sed nulla consequatur!
+                  Quasi itaque ratione consectetur eius nulla modi sequi, eos
+                  quo ea odit doloremque architecto sint.
+                </p>
+                <Link target={"_blank"} to='https://save-life-754a1.web.app/'>
+                  <button className="btn btn-sm bg-[#02765d]">Live Site</button>
+                </Link>
+                <Link>
+                  <button className="btn btn-sm bg-[#02765d]">Source</button>
+                </Link>
               </div>
             </div>
           </div>
