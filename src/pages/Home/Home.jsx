@@ -1,9 +1,9 @@
-import About from "../../components/NavbarRoute/About/About";
+import Banner from "../../components/Banner/Banner";
 
 const Home = () => {
   return (
     <>
-       <About/>
+      <Banner />
     </>
   );
 };

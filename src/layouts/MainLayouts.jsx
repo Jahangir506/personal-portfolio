@@ -8,7 +8,7 @@ const MainLayouts = () => {
   return (
     <>
       <ParticleBg />
-      <div className="absolute w-full top-64 text-white">
+      <div className="absolute w-full top-48 text-white">
         <Outlet />
       </div>
       <div className="max-w-7xl mx-auto">

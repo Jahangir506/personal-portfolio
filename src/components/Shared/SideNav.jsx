@@ -66,19 +66,19 @@ const SideNav = () => {
       )}
       <div className="md:block hidden fixed top-[25%] right-4 z-10">
         <div className="flex flex-col">
-          <Link to='/home' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          <Link to='/home' className="rounded-full shadow-lg bg-gray-100 shadow-[#5ccd80] m-2 p-4 cursor-pointer hover:scale-110 duration-200">
             <AiOutlineHome />
           </Link>
-          <Link to='/study' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          <Link to='/study' className="rounded-full shadow-lg bg-gray-100 shadow-[#5ccd80] m-2 p-4 cursor-pointer hover:scale-110 duration-200">
             <GrProjects />
           </Link>
-          <Link to='/skill' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          <Link to='/skill' className="rounded-full shadow-lg bg-gray-100 shadow-[#5ccd80] m-2 p-4 cursor-pointer hover:scale-110 duration-200">
             <AiOutlineProject />
           </Link>
-          <Link to='/projects' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          <Link to='/projects' className="rounded-full shadow-lg bg-gray-100 shadow-[#5ccd80] m-2 p-4 cursor-pointer hover:scale-110 duration-200">
             <BsPerson />
           </Link>
-          <Link to='/contact' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          <Link to='/contact' className="rounded-full shadow-lg bg-gray-100 shadow-[#5ccd80] m-2 p-4 cursor-pointer hover:scale-110 duration-200">
             <AiOutlineMail />
           </Link>
         </div>

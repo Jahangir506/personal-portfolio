@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer className="footer px-80 items-center pb-16 pt-5 bg-gradient-to-r from-[#154287] from-6% via-[#03419c] via-30% to-[#136ff9] to-90% text-white">
+      <footer className="footer px-80 items-center pb-16 pt-5 bg-gradient-to-r from-[#154287] from-6% via-[#03419c] via-30% to-[#02765d] to-90% text-white">
         <div className="flex">
           <Link to="/home">
             <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
