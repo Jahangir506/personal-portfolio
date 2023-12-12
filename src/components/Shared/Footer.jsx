@@ -10,6 +10,11 @@ const Footer = () => {
               Home
             </button>
           </Link>
+          <Link to="/about">
+            <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
+              About
+            </button>
+          </Link>
           <Link to="/study">
             <button className="btn btn-outline text-white btn-xs hover:bg-white hover:text-black">
               Study

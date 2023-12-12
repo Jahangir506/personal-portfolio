@@ -1,4 +1,8 @@
 import { useState } from "react";
+import { FaBookReader, FaHome } from "react-icons/fa";
+import { MdPerson } from "react-icons/md";
+import { GrProjects } from "react-icons/gr";
+import { FaUserGear } from "react-icons/fa6";
 import {
   AiOutlineHome,
   AiOutlineMail,
@@ -6,7 +10,6 @@ import {
   AiOutlineProject,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { GrProjects } from "react-icons/gr";
 import { Link } from "react-router-dom";
 
 const SideNav = () => {
@@ -65,20 +68,41 @@ const SideNav = () => {
         ""
       )}
       <div className="md:block hidden fixed top-[25%] right-4 z-10">
-        <div className="flex flex-col">
-          <Link to='/home' className="rounded-full shadow-lg bg-gray-100 shadow-[#5ccd80] m-2 p-4 cursor-pointer hover:scale-110 duration-200">
-            <AiOutlineHome />
+        <div className="flex flex-col space-y-3">
+          <Link
+            to="/home"
+            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
+          >
+            <FaHome />
           </Link>
-          <Link to='/study' className="rounded-full shadow-lg bg-gray-100 shadow-[#5ccd80] m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          <Link
+            to="/about"
+            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
+          >
+            <MdPerson className="text-2xl" />
+          </Link>
+          <Link
+            to="/study"
+            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
+          >
+            <FaBookReader />
+          </Link>
+          <Link
+            to="/skill"
+            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
+          >
+            <FaUserGear />
+          </Link>
+          <Link
+            to="/projects"
+            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
+          >
             <GrProjects />
           </Link>
-          <Link to='/skill' className="rounded-full shadow-lg bg-gray-100 shadow-[#5ccd80] m-2 p-4 cursor-pointer hover:scale-110 duration-200">
-            <AiOutlineProject />
-          </Link>
-          <Link to='/projects' className="rounded-full shadow-lg bg-gray-100 shadow-[#5ccd80] m-2 p-4 cursor-pointer hover:scale-110 duration-200">
-            <BsPerson />
-          </Link>
-          <Link to='/contact' className="rounded-full shadow-lg bg-gray-100 shadow-[#5ccd80] m-2 p-4 cursor-pointer hover:scale-110 duration-200">
+          <Link
+            to="/contact"
+            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
+          >
             <AiOutlineMail />
           </Link>
         </div>
