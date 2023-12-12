@@ -1,8 +1,4 @@
 import { useState } from "react";
-import { FaBookReader, FaHome } from "react-icons/fa";
-import { MdPerson } from "react-icons/md";
-import { GrProjects } from "react-icons/gr";
-import { FaUserGear } from "react-icons/fa6";
 import {
   AiOutlineHome,
   AiOutlineMail,
@@ -10,7 +6,8 @@ import {
   AiOutlineProject,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { GrProjects } from "react-icons/gr";
+import HoverButton from "./HoverButton";
 
 const SideNav = () => {
   const [nav, setNav] = useState(false);
@@ -67,44 +64,9 @@ const SideNav = () => {
       ) : (
         ""
       )}
-      <div className="md:block hidden fixed top-[25%] right-4 z-10">
+      <div className="md:block hidden fixed top-[25%] left-4 z-10">
         <div className="flex flex-col space-y-3">
-          <Link
-            to="/home"
-            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
-          >
-            <FaHome />
-          </Link>
-          <Link
-            to="/about"
-            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
-          >
-            <MdPerson className="text-2xl" />
-          </Link>
-          <Link
-            to="/study"
-            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
-          >
-            <FaBookReader />
-          </Link>
-          <Link
-            to="/skill"
-            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
-          >
-            <FaUserGear />
-          </Link>
-          <Link
-            to="/projects"
-            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
-          >
-            <GrProjects />
-          </Link>
-          <Link
-            to="/contact"
-            className="btn btn-circle shadow-lg bg-gray-100 hover:bg-[#aaf8d3] shadow-[#5ccd80] cursor-pointer hover:scale-110 duration-200"
-          >
-            <AiOutlineMail />
-          </Link>
+         <HoverButton/>
         </div>
       </div>
     </>

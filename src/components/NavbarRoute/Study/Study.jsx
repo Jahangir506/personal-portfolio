@@ -2,24 +2,18 @@ const Study = () => {
   return (
     <>
       <div className="max-w-7xl mx-auto">
-        <div
-          className="hero"
-          style={{
-            backgroundImage:
-              "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
-          }}
-        >
-          <div className="hero-overlay bg-opacity-60"></div>
-          <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-              <p className="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
-              </p>
-              <button className="btn btn-primary">Get Started</button>
-            </div>
+        <h2 className="text-white text-4xl">Experiences</h2>
+        <div className="lg:flex mt-10 items-center justify-center gap-16">
+          <div>
+            <p className="text-xl ml-6">
+              Hi , I am Md Jahangir Alam, a dedicated and enthusiastic React
+              front-end developer. Over the past six months, I have been honing
+              my skills in web development, specializing in React.js for
+              front-end development. I also possess something knowledge of
+              Express.js for server-side development and MongoDB for working
+              with databases. This allows me to tackle end-to-end development
+              tasks and build robust, scalable web applications.
+            </p>
           </div>
         </div>
       </div>
