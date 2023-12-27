@@ -12,7 +12,7 @@ const BannerIntro = () => {
   });
   return (
     <>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl min-h-screen mx-auto">
         <div className="flex justify-between gap-6 w-full flex-col-reverse lg:flex-row items-center">
           <div className="flex-1 min-w-4xl px-6 lg:px-2">
             <h2 className="text-xl font-medium mb-3">Hi there,</h2>

@@ -11,14 +11,14 @@ const Projects = () => {
           <span className="text-yellow-500">My</span> Projects
         </h2>
         <div className="grid md:grid-cols-2 gap-6 mt-8 lg:grid-cols-3 justify-center">
-          <div className="card card-compact shadow-xl">
-            <figure>
+          <div className="card card-compact">
+            <div>
               <img
                 src={img1}
                 alt="Shoes"
-                className="w-full h-72"
+                className="w-80 p-2 h-52"
               />
-            </figure>
+            </div>
             <div className="card-body">
               <div className="card-actions">
                 <p>
@@ -28,22 +28,22 @@ const Projects = () => {
                   quo ea odit doloremque architecto sint.
                 </p>
                 <Link target={"_blank"} to='https://brand-shop-6a8b1.web.app/'>
-                  <button className="btn btn-sm bg-[#02765d]">Live Site</button>
+                  <button className="btn btn-sm text-white bg-[#02765d]">Live Site</button>
                 </Link>
                 <Link>
-                  <button className="btn btn-sm bg-[#02765d]">Source</button>
+                  <button className="btn btn-sm text-white bg-[#02765d]">Source</button>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="card card-compact shadow-xl">
-            <figure>
+          <div className="card card-compact">
+            <div>
               <img
                 src={img2}
                 alt="Shoes"
-                className="w-full h-72"
+                className="w-80 p-2 h-52"
               />
-            </figure>
+            </div>
             <div className="card-body">
               <div className="card-actions">
                 <p>
@@ -53,22 +53,22 @@ const Projects = () => {
                   quo ea odit doloremque architecto sint.
                 </p>
                 <Link target={"_blank"} to='https://tong-adda.web.app/'>
-                  <button className="btn btn-sm bg-[#02765d]">Live Site</button>
+                  <button className="btn btn-sm text-white bg-[#02765d]">Live Site</button>
                 </Link>
                 <Link>
-                  <button className="btn btn-sm bg-[#02765d]">Source</button>
+                  <button className="btn btn-sm text-white bg-[#02765d]">Source</button>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="card card-compact shadow-xl">
-            <figure>
+          <div className="card card-compact">
+            <div>
               <img
-              className="w-full h-72"
+              className="w-80 p-2 h-52"
                 src={img3}
                 alt="Shoes"
               />
-            </figure>
+            </div>
             <div className="card-body">
               <div className="card-actions">
                 <p>
@@ -78,10 +78,10 @@ const Projects = () => {
                   quo ea odit doloremque architecto sint.
                 </p>
                 <Link target={"_blank"} to='https://save-life-754a1.web.app/'>
-                  <button className="btn btn-sm bg-[#02765d]">Live Site</button>
+                  <button className="btn btn-sm text-white bg-[#02765d]">Live Site</button>
                 </Link>
                 <Link>
-                  <button className="btn btn-sm bg-[#02765d]">Source</button>
+                  <button className="btn btn-sm text-white bg-[#02765d]">Source</button>
                 </Link>
               </div>
             </div>

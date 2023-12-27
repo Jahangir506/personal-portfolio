@@ -20,3 +20,17 @@
 
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .blob{
+        background-image: url('../../assets/MD. Jahangir Alam.png');
+        width: 280px;
+        height: 280px;
+        background-size: cover;
+        background-position: center center;
+        margin: 20px;
+        box-shadow: 0 5px 5px rgba(1, 186, 100, 0.846);
+        animation: animate 5s ease-in-out infinite;
+        transition: all 1s ease-in-out;
+    }
+  }
