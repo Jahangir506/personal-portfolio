@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import resume from "../../assets/MD. Jahangir Alam.pdf";
+import resume from "../../assets/MD. JAHANGIR ALAM OF RESUME.pdf";
 import "../BannerIntro/BannerIntro.css";
 
 const BannerIntro = () => {
@@ -13,8 +13,8 @@ const BannerIntro = () => {
   return (
     <>
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between gap-6 w-full items-center">
-          <div className="flex-1 min-w-4xl">
+        <div className="flex justify-between gap-6 w-full flex-col-reverse lg:flex-row items-center">
+          <div className="flex-1 min-w-4xl px-6 lg:px-2">
             <h2 className="text-xl font-medium mb-3">Hi there,</h2>
             <div className="space-y-10">
               <h2 className="text-4xl font-bold ">
