@@ -8,7 +8,7 @@ const MainLayouts = () => {
   return (
     <>
       <ParticleBg />
-      <div className="absolute w-full top-28 md:top-32 bottom:24 md:bottom-32 text-white">
+      <div className="absolute w-full top-28 md:top-32 bottom-24 md:bottom-32 text-white">
         <Outlet />
       </div>
       <div className="max-w-7xl mx-auto">
@@ -16,7 +16,7 @@ const MainLayouts = () => {
       </div>
       <SideNav/>
       <div className="relative">
-        <div className="bottom-0 fixed left-0 z-200 w-full">
+        <div className="bottom-0 fixed left-0 z-50 w-full">
           <Footer />
         </div>
       </div>

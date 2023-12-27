@@ -16,15 +16,15 @@ const BannerIntro = () => {
         <div className="flex justify-between gap-6 w-full flex-col-reverse lg:flex-row items-center">
           <div className="flex-1 min-w-4xl px-6 lg:px-2">
             <h2 className="text-xl font-medium mb-3">Hi there,</h2>
-            <div className="space-y-10">
+            <div className="space-y-5 lg:space-y-10">
               <h2 className="text-4xl font-bold ">
                 I Am a{" "}
-                <span className="text-5xl text-extrabold text-[#34e36b] shadow-[#34e36b]">
+                <span className="text-3xl lg:text-5xl text-extrabold text-[#34e36b] shadow-[#34e36b]">
                   {typewriter}
                 </span>
                 <Cursor cursorColor="#22c55e"></Cursor>
               </h2>
-              <p className="max-w-3xl text-justify">
+              <p className="max-w-lg text-sm lg:max-w-3xl text-justify">
                 I started knowing and learning Programming for 9 months,
                 I am honing myself in web development, specializing in React.js
                 for friends development. I have some knowledge of Express.js for
